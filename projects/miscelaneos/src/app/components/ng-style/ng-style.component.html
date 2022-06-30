@@ -1,0 +1,7 @@
+<p style="font-size: 10px;">hello world</p>
+<p [style]="{'font-size':'20px'}">hello world</p>
+<p [style]="{'font-size':size + 'px','color':'red'}">hello world</p>
+<p [style.fontSize]="'100px'">hello world</p>
+<p [style.fontSize.px]="size">hello world</p>
+<button class="btn btn-primary" (click)="size = size + 5"> <i class="fa-solid fa-plus"></i></button>
+<button class="btn btn-primary" (click)="size = size - 5"> <i class="fa-solid fa-minus"></i></button>
